@@ -16,6 +16,11 @@ inquirer.prompt([
         name: 'email'
     },
     {
+        type: 'input',
+        message: 'What is your Github username?',
+        name: 'gHub'
+    },
+    {
         type: 'list',
         message: 'What License Type?',
         name: 'license',
@@ -53,8 +58,6 @@ inquirer.prompt([
     }
 ]).then((answers) => {
     console.log(answers);
-    // move README to here
-    //MOVE
 const readMe = `# ${answers.title}
 
 ## Description
@@ -89,7 +92,7 @@ ${answers.test}
 
 ## Questions
 
-If you have any questions, please feel free to contact me at [${answers.email}](mailto:${answers.email})
+If you have any questions, please feel free to contact me at [${answers.email}](mailto:${answers.email}) or go to my Github page at [${answers.gHub}(${answers.gHub})].
 `;
 
 console.log(readMe);

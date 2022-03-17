@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-const licenses = ['MIT', 'Other'];
+const licenses = ['MIT', 'BSD', 'Apache'];
 
 
 inquirer.prompt([

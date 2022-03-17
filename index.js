@@ -85,7 +85,12 @@ ${answers.contribution}
 
 ## Tests
 
-${answers.test}`;
+${answers.test}
+
+## Questions
+
+If you have any questions, please feel free to contact me at [${answers.email}](mailto:${answers.email})
+`;
 
 console.log(readMe);
 fs.writeFile('./readmeArea/README.md', readMe, (err) =>  {

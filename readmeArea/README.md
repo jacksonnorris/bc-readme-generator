@@ -2,7 +2,7 @@
 
 ## Description
 
-This readMe has been automatically generated
+This content was generated automatically 
 
 ## Table of Contents (Optional)
 
@@ -12,11 +12,11 @@ This readMe has been automatically generated
 
 ## Installation
 
-Uses npm install for fs and npm install inquirer for the prompts
+uses npm for inquirer
 
 ## Usage
 
-Feel free to use this on your own :)
+use as you wish
 
 ## License
 
@@ -24,8 +24,12 @@ Feel free to use this on your own :)
 
 ## How to Contribute
 
-I would appreciate any and all contributions
+I would appreciate that
 
 ## Tests
 
-You can test it using node
+node
+
+## Questions
+
+If you have any questions, please feel free to contact me at [jacksonnorr@gmail.com](mailto:jacksonnorr@gmail.com)

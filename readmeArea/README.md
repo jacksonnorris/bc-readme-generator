@@ -1,8 +1,8 @@
-# Readme Generator
+# README Generator
 
 ## Description
 
-This content was generated automatically 
+This application uses Inquirer and File System to prompt users for details necessary to generate a well formatted README. All this information was generated automatically.
 
 ## Table of Contents (Optional)
 
@@ -12,11 +12,11 @@ This content was generated automatically
 
 ## Installation
 
-uses npm for inquirer
+This project used npm install to install the necessary node modules
 
 ## Usage
 
-use as you wish
+This project is open to use, feel free to use it
 
 ## License
 
@@ -24,11 +24,11 @@ use as you wish
 
 ## How to Contribute
 
-I would appreciate that
+If have anything to contribute, that would be great!
 
 ## Tests
 
-node
+This project uses node to test
 
 ## Questions
 

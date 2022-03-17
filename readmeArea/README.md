@@ -1,8 +1,8 @@
-# README Generator
+# jack
 
 ## Description
 
-This application uses Inquirer and File System to prompt users for details necessary to generate a well formatted README. All this information was generated automatically.
+jack
 
 ## Table of Contents (Optional)
 
@@ -12,11 +12,11 @@ This application uses Inquirer and File System to prompt users for details neces
 
 ## Installation
 
-This project used npm install to install the necessary node modules
+jack
 
 ## Usage
 
-This project is open to use, feel free to use it
+jack
 
 ## License
 
@@ -24,12 +24,12 @@ This project is open to use, feel free to use it
 
 ## How to Contribute
 
-If have anything to contribute, that would be great!
+jack
 
 ## Tests
 
-This project uses node to test
+jack
 
 ## Questions
 
-If you have any questions, please feel free to contact me at [jacksonnorr@gmail.com](mailto:jacksonnorr@gmail.com)
+If you have any questions, please feel free to contact me at [jack@jack.com](mailto:jack@jack.com) or go to my Github page at [jack(jack)].

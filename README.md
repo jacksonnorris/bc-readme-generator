@@ -4,6 +4,10 @@
 
 This application uses Inquirer and File System to prompt users for details necessary to generate a well formatted README. All this information was generated automatically.
 
+## Demo
+
+![Demo](./assets/readmeDemo.gif)
+
 ## Table of Contents (Optional)
 
 - [Installation](#installation)

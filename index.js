@@ -95,7 +95,7 @@ ${answers.test}
 If you have any questions, please feel free to contact me at [${answers.email}](mailto:${answers.email}) or go to my Github page at [${answers.gHub}(${answers.gHub})].
 `;
 
-console.log(readMe);
+// console.log(readMe);
 fs.writeFile('./readmeArea/README.md', readMe, (err) =>  {
     err ? console.error(err) : console.log('Success!')
   });

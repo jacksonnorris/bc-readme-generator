@@ -54,12 +54,7 @@ inquirer.prompt([
 ]).then((answers) => {
     console.log(answers);
     // move README to here
-    // fs.writeFile('/readmeArea/README.md', readMe, (err) =>  {
-    //     err ? console.error(err) : console.log('Success!')
-    //   });
-});
-
-//MOVE
+    //MOVE
 const readMe = `# ${answers.title}
 
 ## Description
@@ -93,3 +88,8 @@ ${answers.contribution}
 ${answers.test}`;
 
 console.log(readMe);
+fs.writeFile('./readmeArea/README.md', readMe, (err) =>  {
+    err ? console.error(err) : console.log('Success!')
+  });
+});
+

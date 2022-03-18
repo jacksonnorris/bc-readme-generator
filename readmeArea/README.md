@@ -1,8 +1,8 @@
-# jack
+# undefined
 
 ## Description
 
-jack
+Enter your description here
 
 ## Table of Contents (Optional)
 
@@ -12,11 +12,11 @@ jack
 
 ## Installation
 
-jack
+install instructions here
 
 ## Usage
 
-jack
+usage info here
 
 ## License
 
@@ -24,12 +24,12 @@ jack
 
 ## How to Contribute
 
-jack
+usage info here
 
 ## Tests
 
-jack
+contribution guidelines here
 
 ## Questions
 
-If you have any questions, please feel free to contact me at [jack@jack.com](mailto:jack@jack.com) or go to my Github page at [jack(jack)].
+If you have any questions, please feel free to contact me, test info here at [Jackson Norris](mailto:Jackson Norris) or go to my Github page at [jacksonnorr@gmail.com(jacksonnorr@gmail.com)].

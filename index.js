@@ -1,5 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
+const mkDwn = require('./utils/generateMarkdown')
 
 const licenses = ['MIT', 'BSD', 'Apache'];
 
@@ -57,47 +58,10 @@ inquirer.prompt([
         name: 'test'
     }
 ]).then((answers) => {
-    console.log(answers);
-const readMe = `# ${answers.title}
+    const readMe = mkDwn.generate([answers.tile, answers.description, answers.instructions, answers.usage, answers.license, answers.usage, answers.contribution, answers.test, answers.name, answers.email, answers.gHub]);
+    fs.writeFile('./readmeArea/README.md', readMe, (err) =>  {
+        err ? console.error(err) : console.log('Success!')
+      });
 
-## Description
-
-${answers.description}
-
-## Table of Contents (Optional)
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-
-## Installation
-
-${answers.instructions}
-
-## Usage
-
-${answers.usage}
-
-## License
-
-![License](https://img.shields.io/static/v1?label=License&message=${answers.license}&color=red)
-
-## How to Contribute
-
-${answers.contribution}
-
-## Tests
-
-${answers.test}
-
-## Questions
-
-If you have any questions, please feel free to contact me at [${answers.email}](mailto:${answers.email}) or go to my Github page at [${answers.gHub}(${answers.gHub})].
-`;
-
-// console.log(readMe);
-fs.writeFile('./readmeArea/README.md', readMe, (err) =>  {
-    err ? console.error(err) : console.log('Success!')
-  });
 });
 

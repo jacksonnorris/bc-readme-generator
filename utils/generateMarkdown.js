@@ -40,10 +40,6 @@ ${args[6]}
 
 If you have any questions, please feel free to contact me, ${args[7]} at [${args[8]}](mailto:${args[8]}) or go to my Github page at [${args[9]}(${args[9]})].
 `;
-console.log(readMe)
-return readMe;
-
-// console.log(readMe);
-
-  }
+    return readMe;
+    }
 };

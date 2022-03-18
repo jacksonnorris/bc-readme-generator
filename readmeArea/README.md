@@ -2,7 +2,7 @@
 
 ## Description
 
-Enter your description here
+Description
 
 ## Table of Contents (Optional)
 
@@ -12,11 +12,11 @@ Enter your description here
 
 ## Installation
 
-install instructions here
+Instructions
 
 ## Usage
 
-usage info here
+Usafe
 
 ## License
 
@@ -24,12 +24,12 @@ usage info here
 
 ## How to Contribute
 
-usage info here
+Usafe
 
 ## Tests
 
-contribution guidelines here
+Guidelines
 
 ## Questions
 
-If you have any questions, please feel free to contact me, test info here at [Jackson Norris](mailto:Jackson Norris) or go to my Github page at [jacksonnorr@gmail.com(jacksonnorr@gmail.com)].
+If you have any questions, please feel free to contact me, Test at [Jackson Norris](mailto:Jackson Norris) or go to my Github page at [jacksonnorr@gmail.com(jacksonnorr@gmail.com)].

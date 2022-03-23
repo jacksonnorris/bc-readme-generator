@@ -1,4 +1,4 @@
-# bc-readme-generator# README Generator
+# README Generator
 
 ## Description
 
@@ -6,7 +6,7 @@ This application uses Inquirer and File System to prompt users for details neces
 
 ## Demo
 
-![Demo](./assets/readmeDemo.gif)
+[![Walkthrough](https://i9.ytimg.com/vi/gK65mvNFBus/mq2.jpg?sqp=CLDP6ZEG&rs=AOn4CLDMXXsbZdz-2NDP-svWB2TMNtLY5g)](https://youtu.be/gK65mvNFBus)
 
 ## Table of Contents (Optional)
 

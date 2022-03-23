@@ -58,7 +58,7 @@ inquirer.prompt([
         name: 'test'
     }
 ]).then((answers) => {
-    const readMe = mkDwn.generate([answers.tile, answers.description, answers.instructions, answers.usage, answers.license, answers.usage, answers.contribution, answers.test, answers.name, answers.email, answers.gHub]);
+    const readMe = mkDwn.generate([answers.title, answers.description, answers.instructions, answers.usage, answers.license, answers.usage, answers.contribution, answers.test, answers.name, answers.email, answers.gHub]);
     fs.writeFile('./readmeArea/README.md', readMe, (err) =>  {
         err ? console.error(err) : console.log('Success!')
       });

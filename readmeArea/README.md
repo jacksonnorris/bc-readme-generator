@@ -1,10 +1,10 @@
-# undefined
+# Team Profile Generator
 
 ## Description
 
-Description
+This application uses inquirer and fs to take in input and dynamically generate an html page that contains team profile information.
 
-## Table of Contents (Optional)
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -12,11 +12,11 @@ Description
 
 ## Installation
 
-Instructions
+To install, use npm install
 
 ## Usage
 
-Usafe
+Feel free to use this for any non-commercial purposes
 
 ## License
 
@@ -24,12 +24,12 @@ Usafe
 
 ## How to Contribute
 
-Usafe
+Please contribute if you feel like you have something to add.
 
 ## Tests
 
-Guidelines
+This project uses jest to test. Run npm test to run the tests
 
 ## Questions
 
-If you have any questions, please feel free to contact me, Test at [Jackson Norris](mailto:Jackson Norris) or go to my Github page at [jacksonnorr@gmail.com(jacksonnorr@gmail.com)].
+If you have any questions, please feel free to contact me, Jackson Norris at [jacksonnorr@gmail.com](mailto:jacksonnorr@gmail.com) or go to my Github page at [jacksonnorr](https://github.com/jacksonnorr).
